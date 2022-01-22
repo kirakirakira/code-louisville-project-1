@@ -9,5 +9,7 @@ namespace code_louisville
         string name { get; set; }
         string email { get; set; }
         List<string> languages { get; set; }
+
+        void PrintLanguages();
     }
 }

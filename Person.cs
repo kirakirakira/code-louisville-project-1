@@ -9,5 +9,13 @@ namespace code_louisville
         public string name { get; set; }
         public string email { get; set; }
         public List<string> languages { get; set; }
+
+        public void PrintLanguages()
+        {
+            foreach (string language in languages)
+            {
+                Console.WriteLine(language);
+            }
+        }
     }
 }
